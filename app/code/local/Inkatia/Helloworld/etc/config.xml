@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!-- This XML Will Help You Setup all parts of the module config -->
+<config>
+
+    <modules>
+        <Inkatia_Helloworld>
+            <version>1.0.1</version>
+        </Inkatia_Helloworld>
+    </modules>
+    
+    <!-- 
+    	Updating Block Called in default/layout/inkatia_helloworld.xml
+   	-->
+    <frontend>
+		<routers>
+		   <helloworld>
+			   <use>standard</use>
+			   <args>
+				   <module>Inkatia_Helloworld</module>
+				   <frontName>helloworld</frontName>
+			   </args>
+		   </helloworld>
+		</routers>
+		<layout>
+			<updates>
+				<helloworld module="Inkatia_Helloworld">
+					<!-- Updates the  Layout at default/layout/inkatia_helloworld.xml -->
+					<file>inkatia_helloworld.xml</file>
+				</helloworld>
+		  </updates>
+		</layout>
+	</frontend>
+	
+	<!--  Calling Helper | Model | Blocks -->
+	<global>
+		<models>
+	        <helloworld>
+	            <class>Inkatia_Helloworld_Model</class>
+	        </helloworld>
+    	</models>
+		<helpers>
+			<helloworld>
+				<class>Inkatia_Helloworld_Helper</class>
+			</helloworld>
+		</helpers>
+		<block>
+		    <helloworld>
+				<class>Inkatia_Helloworld_Block</class>
+			</helloworld>
+		</block>
+	</global>
+	
+</config>

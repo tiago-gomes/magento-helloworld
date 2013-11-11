@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+   	<!--  activates the module -->
+     <modules>
+        <Inkatia_Helloworld>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Inkatia_Helloworld>
+     </modules>
+</config>
