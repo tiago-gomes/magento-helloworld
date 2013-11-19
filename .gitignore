@@ -5,7 +5,6 @@ app/code/community/Phoenix/
 app/code/core/
 app/design/adminhtml/default/default/
 app/design/adminhtml/default/find/
-app/design/frontend/base/
 app/design/frontend/default/blank/
 app/design/frontend/default/default/
 app/design/frontend/default/iphone/
@@ -100,7 +99,6 @@ shell/indexer.php
 shell/log.php
 skin/adminhtml/default/default/
 skin/adminhtml/default/enterprise
-skin/frontend/base/
 skin/frontend/default/blank/
 skin/frontend/default/blue/
 skin/frontend/default/default/
@@ -111,7 +109,7 @@ skin/frontend/default/modern/
 skin/frontend/enterprise
 skin/install/
 var/
-Git Commands
+.gitignore~
 .git
 .project
 .buildpath
