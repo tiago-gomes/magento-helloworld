@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This XML Helps You position your module in Magento Theme -->
+<layout version="0.1.0">
+  
+    <default>
+		
+		<reference name="content">
+			<block type="core/template" name="helloworld" as="helloworld" template="inkatia_helloworld/block.phtml" />
+		</reference>
+
+    </default>
+</layout>
